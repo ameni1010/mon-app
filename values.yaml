@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: ameni1010/mon-app
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30001
+
+ingress:
+  enabled: false
+
