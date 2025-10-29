@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mon-app
-          image: ton-dockerhub/mon-app
+          image: ameni1010/mon-app
           ports:
             - containerPort: 3000
