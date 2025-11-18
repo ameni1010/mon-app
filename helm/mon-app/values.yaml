@@ -44,4 +44,5 @@ serviceAccount:
   name: ""
   annotations: {}
   automount: true
-
+httpRoute:
+  enabled: false
