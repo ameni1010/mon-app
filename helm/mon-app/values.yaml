@@ -42,4 +42,6 @@ affinity: {}
 serviceAccount:
   create: true
   name: ""
+  annotations: {}
+  automount: true
 
