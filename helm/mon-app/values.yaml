@@ -39,4 +39,7 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
+serviceAccount:
+  create: true
+  name: ""
 
